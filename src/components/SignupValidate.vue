@@ -78,7 +78,7 @@
 
         <button  @click="signup">Sign Up</button> -->
       </form>
-      <span>or go back to <router-link to="/login">login</router-link>.</span>
+      <span>or go back to <router-link to="/Vue.js_Assignment_570610575/login">login</router-link>.</span>
   </div>
 </template>
 
