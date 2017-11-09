@@ -4,7 +4,7 @@
       <input type="text" v-model="user.username" placeholder="Username"><br>
       <input type="password" v-model="user.password" placeholder="Password"><br>
       <button @click="login">Login</button>
-      <p>You don't have an account? You can <router-link to="/signup2"> create one</router-link></p>
+      <p>You don't have an account? You can <router-link to="/Vue.js_Assignment_570610575/signup2"> create one</router-link></p>
       <hr>
       <p>Sign-in with <span @click="loginGoogle">Google</span> or <span @click="loginFacebook">Facebook</span> account.</p>
       <p>Sign-in with Firebase UI <router-link to='/firebaseauth'>click here</router-link></p>
