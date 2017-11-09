@@ -52,7 +52,7 @@ export default new Router({
       redirect: { name: 'Login'}
     },
     {
-      path: '/firebaseauth',
+      path: '/Vue.js_Assignment_570610575/firebaseauth',
       name: 'Auth',
       component: FirebaseAuth
     }
