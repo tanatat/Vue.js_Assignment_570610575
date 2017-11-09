@@ -14,41 +14,36 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/hello',
+      path: '/Vue.js_Assignment_570610575/hello',
       name: 'Hello',
       component: HelloWorld,
       meta: {
         requiresAuth: true
       },
       children: [{
-        path: '/hello/about',
+        path: '/Vue.js_Assignment_570610575/hello/about',
         name: 'About',
         component: About
       },
       {
-        path: '/hello/bookmarks',
+        path: '/Vue.js_Assignment_570610575/hello/bookmarks',
         name: 'Bookmark',
         component: BookMarker
       },
       {
-        path: 'hello/profile',
+        path: '/Vue.js_Assignment_570610575/hello/profile',
         name: 'Profile',
         component: Profile
       }
     ]
     },
     {
-      path: '/login',
+      path: '/Vue.js_Assignment_570610575/login',
       name: 'Login',
       component: Login
     },
     {
-      path: '/signup',
-      name: 'Signup',
-      component: Signup
-    },
-    {
-      path: '/signup2',
+      path: '/Vue.js_Assignment_570610575/signup2',
       name: 'Signup2',
       component: Signup2
     },
