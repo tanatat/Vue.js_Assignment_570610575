@@ -11,7 +11,7 @@
         <input type="text" ref="phone" v-model="user.phone" placeholder="Phone number"><br>
 
         <button  @click="validateBeforeSubmit">Sign Up</button>
-      <span>or go back to <router-link to="/login">login</router-link>.</span>
+      <span>or go back to <router-link to="/Vue.js_Assignment_570610575/login">login</router-link>.</span>
   </div>
 </template>
 

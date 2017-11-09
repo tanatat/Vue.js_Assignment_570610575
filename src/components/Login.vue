@@ -7,7 +7,7 @@
       <p>You don't have an account? You can <router-link to="/Vue.js_Assignment_570610575/signup2"> create one</router-link></p>
       <hr>
       <p>Sign-in with <span @click="loginGoogle">Google</span> or <span @click="loginFacebook">Facebook</span> account.</p>
-      <p>Sign-in with Firebase UI <router-link to='/firebaseauth'>click here</router-link></p>
+      <p>Sign-in with Firebase UI <router-link to='/Vue.js_Assignment_570610575/firebaseauth'>click here</router-link></p>
 
   </div>
 </template>
@@ -70,7 +70,7 @@ export default {
                         console.log('token: ' + token);
                         console.log(user);
 
-                        this.$router.push('/hello');
+                        this.$router.push('/Vue.js_Assignment_570610575/hello');
                     }
                     
                 },
@@ -98,7 +98,7 @@ export default {
                         console.log('token: ' + token);
                         console.log(user);
 
-                        this.$router.push('/hello');
+                        this.$router.push('/Vue.js_Assignment_570610575/hello');
                     }
                     
                 },
