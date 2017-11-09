@@ -9,7 +9,7 @@ export default {
   name: 'auth',
   mounted() {
     var uiConfig = {
-      signInSuccessUrl: '/hello',
+      signInSuccessUrl: 'https://tanatat.github.io/Vue.js_Assignment_570610575/hello',
       signInOptions: [
         firebase.auth.GoogleAuthProvider.PROVIDER_ID,
         firebase.auth.FacebookAuthProvider.PROVIDER_ID,
