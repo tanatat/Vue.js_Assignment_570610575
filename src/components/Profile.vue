@@ -18,18 +18,18 @@
 
 <script>
 export default {
-  name: "About",
+  name: 'About',
   data() {
     return {
       user: {
-        photoURL: "",
-        userId: "",
-        name: "",
+        photoURL: '',
+        userId: '',
+        name: '',
         birthdate: '',
-        email: "",
-        url: "",
-        facebook: "",
-        phone: ""
+        email: '',
+        url: '',
+        facebook: '',
+        phone: ''
       }
     };
   },

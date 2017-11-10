@@ -41,26 +41,26 @@ import { db } from '@/firebaseConfig'
 var md5 = require('md5');
 
 export default {
-  name: "HelloWorld",
+  name: 'HelloWorld',
   data () {
     return {
       msg: 'Firebase Authentication tutorial',
       user: {
-        photoURL: "",
-        userId: "",
-        name: "",
-        birthdate: "",
-        email: "",
-        url: "",
-        facebook: "",
-        phone: ""
+        photoURL: '',
+        userId: '',
+        name: '',
+        birthdate: '',
+        email: '',
+        url: '',
+        facebook: '',
+        phone: ''
       }
     };
   },
   methods: {
     logout() {
       firebase.auth().signOut().then( () => {
-        this.$router.push( { name: "Login"});
+        this.$router.push( { name: 'Login'});
       })
     }
   },
@@ -76,7 +76,7 @@ export default {
       var uid = md5(user.email);
       console.log(uid);
 
-      db.ref("users/" + uid).once("value").then(
+      db.ref("users/" + uid).once('value').then(
         snapshot => {
           if (snapshot) {
             console.log(snapshot);
